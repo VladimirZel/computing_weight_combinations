@@ -21,7 +21,7 @@ def compute_combinations(remain:int or float, available_weights:list,
     
     """
     assert len(list(Counter(available_weights).keys()))==len(available_weights), \
-    'Веса грузиков не должны повторяться'
+           'Веса грузиков не должны повторяться'
     
     # Словарь с максимально возможным количеством грузиков каждого веса 
     bound_dict = dict()
